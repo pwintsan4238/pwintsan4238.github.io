@@ -76,7 +76,7 @@
       "url": "https://pwintsan4238.github.io/",
       "image": { "@id": "https://pwintsan4238.github.io/#primaryimage" },
       "jobTitle": "AI & Digital Marketing Strategist",
-      "description": "Entrepreneur building AI tools, AI agent services and digital marketing solutions in Thailand. Former CEO, designer of 30+ websites, and chatbot and marketing partner to 90+ SMEs. MBA in Marketing Management.",
+      "description": "Entrepreneur building AI tools, AI agent services and digital marketing solutions in Thailand. Former CEO, co-founder of Site Digital, designer of 40+ websites, and chatbot and marketing partner to 90+ SMEs. MBA in Marketing Management.",
       "email": "mailto:pwintsanwork@gmail.com",
       "telephone": "+66805311499",
       "worksFor": { "@id": "https://pwintsan4238.github.io/#organization" },
@@ -570,6 +570,37 @@ footer p{font-size:.82rem;color:var(--muted)}
   @keyframes fade{from{opacity:.2}to{opacity:1}}
 }
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+/* Site Digital: studio photo + client website gallery */
+.studio{margin:0;position:relative;border:1px solid var(--ink);background:var(--paper-2);padding:18px 18px 0;max-width:420px;justify-self:center;width:100%}
+.studio img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:center 30%;display:block}
+.studio figcaption{position:absolute;left:-1px;bottom:24px;background:var(--red);color:var(--red-ink);padding:12px 18px;display:grid;gap:2px;font-size:.78rem}
+.studio figcaption .kicker{color:var(--band-line)}
+.studio figcaption b{font-family:var(--display);font-style:italic;font-weight:400;font-size:1.7rem;line-height:1}
+.case-copy a{color:var(--red)}
+.sites-head{display:grid;gap:6px;margin:clamp(48px,7vw,80px) 0 22px;padding-top:28px;border-top:1px solid var(--line)}
+.sites-head h3{font-family:var(--display);font-style:italic;font-weight:400;font-size:clamp(1.8rem,3.4vw,2.4rem);line-height:1.05;color:var(--ink)}
+.sites{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.site-card{margin:0;background:var(--card);border:1px solid var(--ink);min-width:0;display:flex;flex-direction:column}
+.site-shot{position:relative;border-bottom:1px solid var(--ink);padding-top:22px;background:var(--paper-2);overflow:hidden}
+.site-shot .dots{position:absolute;top:7px;left:10px;display:flex;gap:5px}
+.site-shot .dots i{width:7px;height:7px;border-radius:50%;border:1px solid var(--ink)}
+.site-shot img{display:block;width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;object-position:top center;transition:transform .5s ease}
+.site-card:hover .site-shot img{transform:scale(1.03)}
+.site-card figcaption{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:12px 14px}
+.site-name{font-family:var(--display);font-style:italic;font-size:1.35rem;line-height:1.1;color:var(--red);min-width:0;overflow-wrap:anywhere}
+.site-card .pill{flex:none}
+.more-sites{margin-top:22px}
+.more-sites summary{list-style:none;display:flex;justify-content:center;cursor:pointer}
+.more-sites summary::-webkit-details-marker{display:none}
+.more-sites summary:focus-visible{outline:none}
+.more-sites summary:focus-visible .btn{outline:2px solid var(--red);outline-offset:3px}
+.more-sites[open] summary{margin-bottom:22px}
+.more-sites .when-open,.more-sites[open] .when-closed{display:none}
+.more-sites[open] .when-open{display:inline}
+.more-sites[open] summary .btn{background:var(--ink);color:var(--paper)}
+@media (max-width:860px){.sites{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:540px){.sites{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){.site-shot img{transition:none}.site-card:hover .site-shot img{transform:none}}
 </style>
 </head>
 <body>
@@ -616,7 +647,7 @@ footer p{font-size:.82rem;color:var(--muted)}
       </div>
     </div>
     <div class="facts">
-      <div class="fact"><svg><use href="#i-award"/></svg>MBA in Marketing,<br>30+ digital projects delivered</div>
+      <div class="fact"><svg><use href="#i-award"/></svg>MBA in Marketing,<br>40+ websites delivered</div>
       <div class="fact"><svg><use href="#i-pin"/></svg>Based in Thailand,<br>working across Southeast Asia</div>
       <div class="fact"><svg><use href="#i-spark"/></svg>AI &amp; digital marketing<br>strategist and founder</div>
     </div>
@@ -807,7 +838,7 @@ footer p{font-size:.82rem;color:var(--muted)}
       <h2>Meet Pwint</h2>
       <p>I'm an entrepreneur who builds and scales businesses across AI, digital marketing and migration services in Southeast Asia. In Thailand I develop AI tools and AI agent services, and deliver project-based digital marketing that helps businesses automate their processes and grow with data.</p>
       <p>I also run a migration and recruitment business in Thailand, giving migrant workers reliable support with visas, work permits and job placement.</p>
-      <p>Before that I was a CEO, led digital marketing and fundraising, designed 30+ websites and built chatbot and marketing solutions for 90+ SMEs. I hold an MBA in Marketing Management and a UI/UX design certification from Springboard.</p>
+      <p>Before that I was a CEO, led digital marketing and fundraising, designed 40+ websites and built chatbot and marketing solutions for 90+ SMEs. I hold an MBA in Marketing Management and a UI/UX design certification from Springboard.</p>
       <div class="btns">
         <a class="btn solid" href="#work">See my work</a>
         <a class="btn" href="https://mm.linkedin.com/in/pwint-san-5ba02753" target="_blank" rel="noopener">Visit LinkedIn</a>
@@ -858,17 +889,15 @@ footer p{font-size:.82rem;color:var(--muted)}
   <div class="wrap">
     <div class="head"><h2>Website Design &amp; Build</h2><div class="kicker">Business sites · landing pages · online stores</div></div>
     <div class="case">
-      <div class="mock browser" aria-hidden="true">
-        <div class="bar"><i></i><i></i><i></i><em>yourbrand.com</em></div>
-        <div class="site">
-          <div class="hero-blk">New season,<br>new story.<small>Shop the collection</small></div>
-          <div class="row"><div></div><div></div><div></div></div>
-          <div class="lines"><i></i><i></i><i></i></div>
-        </div>
-      </div>
+      <figure class="studio">
+        <img src="images/pwint-san-site-digital.webp" alt="Pwint San working on a website at her laptop" width="768" height="960" loading="lazy" decoding="async">
+        <figcaption><span class="kicker">Co-founder</span><b>Site Digital</b>Quick builds. Full service. Fair price.</figcaption>
+      </figure>
       <div class="case-copy">
+        <h4>Site Digital</h4>
+        <p>I co-founded <a href="https://pwintsan4238.github.io/sitedigital/" target="_blank" rel="noopener">Site Digital</a> with web developer Myat Min. Together we design and build business, e-commerce and learning (LMS) websites for clients in Singapore, Thailand and Myanmar. I lead design, UX and content, and Myat Min handles custom development in PHP and Laravel.</p>
         <h4>Track record</h4>
-        <p>Since 2023 I've designed and developed 30+ WordPress websites for clients, with a focus on user experience and clear interface design. At Think SME in Singapore I built landing pages for Google Ads campaigns and redesigned client websites.</p>
+        <p>Since 2023 I've designed and built 40+ websites on WordPress, Wix and Squarespace, with a focus on user experience and clear interface design. At Think SME in Singapore I built landing pages for Google Ads campaigns and redesigned client websites.</p>
         <h4>What's included</h4>
         <ul>
           <li>Responsive design that works on every phone</li>
@@ -880,10 +909,173 @@ footer p{font-size:.82rem;color:var(--muted)}
       </div>
     </div>
     <div class="stats">
-      <div class="stat"><b>30+</b><span>WordPress websites<br>designed and built</span></div>
+      <div class="stat"><b>40+</b><span>Websites designed<br>and built</span></div>
       <div class="stat"><b>90+</b><span>SME clients served<br>with chatbots &amp; marketing</span></div>
       <div class="stat"><b>10+</b><span>Years across business,<br>UN projects and digital</span></div>
     </div>
+    <div class="sites-head">
+      <div class="kicker">Client websites</div>
+      <h3>Selected work from Site Digital</h3>
+    </div>
+    <div class="sites">
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/thinksme-sg.webp" alt="thinkSME SG website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">thinkSME SG</span><span class="pill">Business</span></figcaption>
+        </figure>
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/restyle.webp" alt="RESTYLE website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">RESTYLE</span><span class="pill">E-commerce</span></figcaption>
+        </figure>
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/tedxchiangmai.webp" alt="TEDxChiangMai website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">TEDxChiangMai</span><span class="pill">Business</span></figcaption>
+        </figure>
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/pace-forward.webp" alt="Pace Forward website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">Pace Forward</span><span class="pill">Learning</span></figcaption>
+        </figure>
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/j3-comic.webp" alt="J3 Comic website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">J3 Comic</span><span class="pill">Manga</span></figcaption>
+        </figure>
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/philip-p-wong.webp" alt="Philip P. Wong website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">Philip P. Wong</span><span class="pill">Business</span></figcaption>
+        </figure>
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/myanmar-tourism.webp" alt="Myanmar Tourism website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">Myanmar Tourism</span><span class="pill">Business</span></figcaption>
+        </figure>
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/oriental-basil.webp" alt="Oriental Basil website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">Oriental Basil</span><span class="pill">E-commerce</span></figcaption>
+        </figure>
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/cs-north-engineering.webp" alt="CS North Engineering website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">CS North Engineering</span><span class="pill">Business</span></figcaption>
+        </figure>
+    </div>
+    <details class="more-sites">
+      <summary><span class="btn"><span class="when-closed">View all 38 websites</span><span class="when-open">Show fewer</span></span></summary>
+      <div class="sites">
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/earpro.webp" alt="earpro website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">earpro</span><span class="pill">E-commerce</span></figcaption>
+        </figure>
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/ko-linn-advanser-design.webp" alt="Ko Linn Advanser Design website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">Ko Linn Advanser Design</span><span class="pill">Learning</span></figcaption>
+        </figure>
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/shartra.webp" alt="SHARTRA website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">SHARTRA</span><span class="pill">E-commerce</span></figcaption>
+        </figure>
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/digital-nomad.webp" alt="Digital Nomad website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">Digital Nomad</span><span class="pill">Learning</span></figcaption>
+        </figure>
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/jena.webp" alt="JENA website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">JENA</span><span class="pill">Business</span></figcaption>
+        </figure>
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/nine-star.webp" alt="Nine Star website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">Nine Star</span><span class="pill">E-commerce</span></figcaption>
+        </figure>
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/tain-tamann.webp" alt="တိမ်တမန် website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">တိမ်တမန်</span><span class="pill">E-commerce</span></figcaption>
+        </figure>
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/shwe-mon.webp" alt="Shwe Mon website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">Shwe Mon</span><span class="pill">E-commerce</span></figcaption>
+        </figure>
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/princess-co-jewelry.webp" alt="Princess &amp; Co. Jewelry website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">Princess &amp; Co. Jewelry</span><span class="pill">E-commerce</span></figcaption>
+        </figure>
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/forever-gems.webp" alt="Forever Gems website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">Forever Gems</span><span class="pill">E-commerce</span></figcaption>
+        </figure>
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/way-to-go-education-service.webp" alt="Way To Go Education Service website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">Way To Go Education Service</span><span class="pill">Learning</span></figcaption>
+        </figure>
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/mahar-euphoria-education-centre.webp" alt="Mahar Euphoria Education Centre website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">Mahar Euphoria Education Centre</span><span class="pill">Business</span></figcaption>
+        </figure>
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/imcm.webp" alt="IMCM website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">IMCM</span><span class="pill">Business</span></figcaption>
+        </figure>
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/nay.webp" alt="NAY website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">NAY</span><span class="pill">Business</span></figcaption>
+        </figure>
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/gamesphere.webp" alt="Gamesphere website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">Gamesphere</span><span class="pill">E-commerce</span></figcaption>
+        </figure>
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/the-wheel-travel.webp" alt="The Wheel Travel website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">The Wheel Travel</span><span class="pill">Business</span></figcaption>
+        </figure>
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/nikunj-drome.webp" alt="Nikunj Drome website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">Nikunj Drome</span><span class="pill">Business</span></figcaption>
+        </figure>
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/amara-consultation.webp" alt="Amara Consultation website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">Amara Consultation</span><span class="pill">Business</span></figcaption>
+        </figure>
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/wai-yan-online-class.webp" alt="Wai Yan Online Class website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">Wai Yan Online Class</span><span class="pill">Business</span></figcaption>
+        </figure>
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/dt-bath-house.webp" alt="DT Bath House website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">DT Bath House</span><span class="pill">Business</span></figcaption>
+        </figure>
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/mmo-network.webp" alt="MMO Network website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">MMO Network</span><span class="pill">Business</span></figcaption>
+        </figure>
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/b2b-japan.webp" alt="B2B Japan website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">B2B Japan</span><span class="pill">Business</span></figcaption>
+        </figure>
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/venture-vista-global.webp" alt="Venture Vista Global website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">Venture Vista Global</span><span class="pill">Business</span></figcaption>
+        </figure>
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/bhar-sar-pyan.webp" alt="Bhar Sar Pyan website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">Bhar Sar Pyan</span><span class="pill">Business</span></figcaption>
+        </figure>
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/voyage24-mm.webp" alt="Voyage24 MM website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">Voyage24 MM</span><span class="pill">Business</span></figcaption>
+        </figure>
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/citta-sukha.webp" alt="Citta Sukha website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">Citta Sukha</span><span class="pill">Business</span></figcaption>
+        </figure>
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/becom-solution.webp" alt="BeCom Solution website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">BeCom Solution</span><span class="pill">Business</span></figcaption>
+        </figure>
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/zigzag-marketing.webp" alt="ZigZag Marketing website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">ZigZag Marketing</span><span class="pill">Business</span></figcaption>
+        </figure>
+        <figure class="site-card">
+          <div class="site-shot"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><img src="images/work/jewellery-by-k.webp" alt="Jewellery by K website homepage" width="1024" height="640" loading="lazy" decoding="async"></div>
+          <figcaption><span class="site-name">Jewellery by K</span><span class="pill">E-commerce</span></figcaption>
+        </figure>
+      </div>
+    </details>
   </div>
 </section>
 
@@ -1044,7 +1236,8 @@ footer p{font-size:.82rem;color:var(--muted)}
     <div class="head"><div class="kicker">Experience</div><h2>Career Journey</h2></div>
     <div class="timeline">
       <div class="tl"><div class="yr">Now · Thailand</div><h3>Founder<br>Migration &amp; Recruitment Services</h3><p>Visa, work permit and job placement support for migrant workers, alongside AI tools, AI agent services and project-based digital marketing.</p></div>
-      <div class="tl"><div class="yr">2023 – Present · Remote</div><h3>Freelance Digital Marketer<br>Web &amp; UI/UX Designer</h3><p>30+ WordPress websites with booking, forms and payments. Designed the Match Me dating app with an offshore developer team.</p></div>
+      <div class="tl"><div class="yr">2025 – Present · MM · SG · TH</div><h3>Co-founder<br>Site Digital</h3><p>Web design studio with developer Myat Min: business, e-commerce and LMS websites, 38 shown in the Website Design section. See the work at <a href="https://pwintsan4238.github.io/sitedigital/" target="_blank" rel="noopener" style="color:inherit">Site Digital</a>.</p></div>
+      <div class="tl"><div class="yr">2023 – Present · Remote</div><h3>Freelance Digital Marketer<br>Web &amp; UI/UX Designer</h3><p>40+ websites with booking, forms and payments. Designed the Match Me dating app with an offshore developer team.</p></div>
       <div class="tl"><div class="yr">2023 · Singapore</div><h3>Digital Marketing Specialist<br>Ui Ux Pte Ltd</h3><p>UI design for ride-sharing and wine tour ticketing apps, plus social media posts and graphics.</p></div>
       <div class="tl"><div class="yr">2022 – 2023</div><h3>UI/UX Design Certification<br>Springboard</h3><p>Three end-to-end product projects (BykX, GalleryPal, Via Job), senior UX mentorship and the Daily UI 100-day challenge.</p></div>
       <div class="tl"><div class="yr">2022 – 2023 · Singapore, remote</div><h3>Social Media Marketing Specialist<br>Think SME Pte Ltd</h3><p>Landing pages for Google marketing campaigns, website redesigns and social media content.</p></div>

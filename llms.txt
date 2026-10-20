@@ -2,7 +2,7 @@
 
 > Techy Pwint is Pwint San's service business. It builds websites, AI workflows, custom Claude skills and video ads for business owners and creators in Thailand, Myanmar and Southeast Asia. Every service is done for you or taught to you. Work is available in English, Burmese and Thai.
 
-Pwint San is an entrepreneur and AI & digital marketing strategist based in Thailand, with an MBA in Marketing Management and a UI/UX Design Certification from Springboard. Pwint San has designed 30+ WordPress websites, built chatbot and marketing solutions for 90+ SMEs, and is a former CEO.
+Pwint San is an entrepreneur and AI & digital marketing strategist based in Thailand, with an MBA in Marketing Management and a UI/UX Design Certification from Springboard. Pwint San co-founded the web design studio Site Digital (https://pwintsan4238.github.io/sitedigital/), has designed 40+ websites, built chatbot and marketing solutions for 90+ SMEs, and is a former CEO.
 
 ## Packages (prices in USD)
 
@@ -25,4 +25,5 @@ Bundles get a discount. Payment is 50% upfront and 50% on delivery. Courses are 
 
 ## Optional
 
+- [Client websites](https://pwintsan4238.github.io/#websites): 38 business, e-commerce and LMS websites built with Site Digital for clients in Singapore, Thailand and Myanmar, including thinkSME SG, TEDxChiangMai, RESTYLE and Myanmar Tourism.
 - [Portfolio and career history](https://pwintsan4238.github.io/#career): UX case studies (BykX, GalleryPal, Via Job), web design, AI chatbots and digital marketing work since 2012.
