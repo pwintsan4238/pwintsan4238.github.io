@@ -1,29 +1,42 @@
 # Techy Pwint
 
-> Techy Pwint is Pwint San's service business. It builds websites, AI workflows, custom Claude skills and video ads for business owners and creators in Thailand, Myanmar and Southeast Asia. Every service is done for you or taught to you. Work is available in English, Burmese and Thai.
+> Techy Pwint is Pwint San's business. Pwint San helps Myanmar business owners use websites, AI and automation to work smarter and grow online, and teaches them how to do it themselves. Services cover business websites, e-commerce stores, landing pages, AI workflows, custom Claude skills and AI chatbots. Work is available in English, Burmese and Thai.
 
-Pwint San is an entrepreneur and AI & digital marketing strategist based in Thailand, with an MBA in Marketing Management and a UI/UX Design Certification from Springboard. Pwint San co-founded the web design studio Site Digital (https://pwintsan4238.github.io/sitedigital/), has designed 40+ websites, built chatbot and marketing solutions for 90+ SMEs, and is a former CEO.
+Pwint San is a website and AI automation specialist based in Thailand who works remotely with Myanmar businesses. Pwint San holds an MBA in Marketing Management and a UI/UX Design Certification from Springboard, co-founded the web design studio Site Digital (https://pwintsan4238.github.io/sitedigital/), has designed and built 40+ websites, designed chatbots and Messenger marketing for 90+ SMEs, and created ShweApps, a Burmese-language Android app for Myanmar people in Thailand with 1K+ downloads (https://play.google.com/store/apps/details?id=com.mycompany.shweapps).
 
-## Packages (prices in USD)
+## Websites
 
-- [Niche Finding & Content Strategy](https://pwintsan4238.github.io/#free): Free. Pick a niche, define your audience, set 3 content pillars and get 10 starter content ideas.
-- [Web Package: Website + AEO/SEO + Video Ads](https://pwintsan4238.github.io/#packages): $600–1,000. A custom mobile-friendly website of up to 5 pages, SEO and answer engine optimization for AI assistants, plus 2–3 short video ads. Takes 2–4 weeks.
-- [AI Skill Package: Custom Claude Skill Development](https://pwintsan4238.github.io/#packages): $150–400. One custom Claude skill with your brand voice, rules, examples and templates, for tasks such as content writing, customer replies, reports and proposals. Takes about 3–7 days.
-- [AI Workflow for Business](https://pwintsan4238.github.io/#packages): $400–800. An AI system for content creation, scheduling, brand consistency and customer replies, with 2 weeks of support. Takes 1–2 weeks.
-- [AI Workflow for Creators](https://pwintsan4238.github.io/#packages): $200–400. A personal brand voice profile, an AI workflow for ideas, scripts, captions and hooks, and a repurposing system. Takes 1–2 weeks.
-- [AI Video Creation Course](https://pwintsan4238.github.io/#packages): $100–150. Learn to make short-form videos with AI tools for TikTok, Reels and Shorts.
+- [Business website with SEO, AEO and video ads](https://pwintsan4238.github.io/#websites-services): $600–1,000. A custom mobile-friendly website of up to 5 pages, SEO and answer engine optimization for AI assistants, plus 2–3 short video ads. Takes 2–4 weeks.
+- [E-commerce website](https://pwintsan4238.github.io/#websites-services): from 500,000–2,000,000 MMK. Product pages, cart, checkout and payment gateway integration.
+- [Landing page](https://pwintsan4238.github.io/#websites-services): from 500,000–2,000,000 MMK. One focused page for a launch, event or ad campaign.
+- Website redesigns: improve an existing site's content, structure and SEO.
 
-Bundles get a discount. Payment is 50% upfront and 50% on delivery. Courses are paid in full at enrollment.
+## AI & Automation
+
+- [AI Workflow for Business](https://pwintsan4238.github.io/#ai-services): $400–800. Automates repetitive work such as content, scheduling, customer messages and reports, with 2 weeks of support. Takes 1–2 weeks.
+- [Custom Claude Skill](https://pwintsan4238.github.io/#ai-services): $150–400. Teaches the AI a business's brand, products and rules so results are consistent. Takes about 3–7 days.
+- [AI Chatbot](https://pwintsan4238.github.io/#ai-services): from 500,000–2,000,000 MMK. Answers customers in Burmese, Thai or English on Messenger, Instagram, website chat or Telegram.
+- [AI Workflow for Creators & Personal Brands](https://pwintsan4238.github.io/#ai-services): $200–400.
+
+## Learn
+
+- [Myanmar Business Digital Starter Kit](https://pwintsan4238.github.io/#free): free, coming soon. Website and AI checklists, templates and prompts for business owners.
+- [AI Video Creation Course](https://pwintsan4238.github.io/#learn-services): $100–150, coming soon.
+- [Niche Finding & Content Strategy](https://pwintsan4238.github.io/#free): free session for creators.
+
+Bundles get a discount. Payment is 50% upfront and 50% on delivery.
 
 ## Contact
 
-- Book a free consultation: https://calendly.com/pwintsanwork/new-meeting
+- Start a project or book a free call: https://calendly.com/pwintsanwork/new-meeting
 - Email: pwintsanwork@gmail.com
+- Viber: 0950973150647
 - Phone and WhatsApp: +66 80 531 1499
 - LINE: @pwiny
 - LinkedIn: https://www.linkedin.com/in/pwint-san-5ba02753
 
 ## Optional
 
-- [Client websites](https://pwintsan4238.github.io/#websites): 38 business, e-commerce and LMS websites built with Site Digital for clients in Singapore, Thailand and Myanmar, including thinkSME SG, TEDxChiangMai, RESTYLE and Myanmar Tourism.
-- [Portfolio and career history](https://pwintsan4238.github.io/#career): UX case studies (BykX, GalleryPal, Via Job), web design, AI chatbots and digital marketing work since 2012.
+- [Selected work](https://pwintsan4238.github.io/#work): mini case studies for ShweApps, ZigWay, Think SME, chatbots for 90+ SMEs, BykX and Via Job.
+- [Client websites](https://pwintsan4238.github.io/#websites): 38 business, e-commerce and LMS websites built with Site Digital for clients in Myanmar, Thailand and Singapore.
+- [Career](https://pwintsan4238.github.io/#career): UNOPS, Hydro Plant (CEO), DigitalMarketing.com.mm, ZigWay, Think SME, Site Digital.
